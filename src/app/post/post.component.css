@@ -1,0 +1,31 @@
+.container{
+    border-style: solid;
+    border-width: 2px;
+    border-color: dimgrey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    margin: 1%;
+    align-items: center;
+}
+
+.item{
+    margin: 3%;
+}
+
+
+/* table */
+td{
+    padding: 0 15px;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}

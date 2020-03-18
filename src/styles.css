@@ -1,1 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 1px;
+    border-color: crimson;
+    border-left-style: outset;
+    border-right-style: outset;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.flex{
+   display: flex;
+   flex-direction: column;
+   white-space: nowrap;
+   align-items: center;
+}
+
+/* quotes 
+*/
+
+/*  images */
+
+img.mrgn-img-left{
+   scale: 40%;
+   float: left;
+   position: relative;
+   right: 25%;
+}
+
+img.mrgn-img-right{
+    margin-top: 10%;
+    scale: 40%;
+    left: 25%;
+    transform: scale(-1,1);
+    position: relative;
+    float: right;
+}
