@@ -10,6 +10,7 @@ import { ContactComponent } from './contact/contact.component';
 
 
 const appRoutes: Routes = [
+  {path: '', component: PostComponent},
   {path: 'posts', component: PostComponent},
   {path: 'about', component: AboutComponent },
   {path: 'contact', component: ContactComponent}

@@ -1,4 +1,5 @@
 body {
+    min-width: 851px;
     width: 70%;
     margin: 0 auto;
     border-radius: 1px;
@@ -9,30 +10,35 @@ body {
 }
 
 
-.flex{
+.container{
    display: flex;
    flex-direction: column;
-   white-space: nowrap;
    align-items: center;
+   justify-content: flex-start;
+}
+
+body{
+    margin-top: 5%;
+}
+
+.posts{
+    margin-top: 3%;
+    width: 100%;
+}
+
+.mrgn-img-left{
+    float: left;
+    transform: scale(0.5, 0.5) rotateY(180deg);
+
+    
+}
+
+.mrgn-img-right{
+    float: right;
+    transform: scale(0.5, 0.5);
 }
 
 /* quotes 
 */
 
 /*  images */
-
-img.mrgn-img-left{
-   scale: 40%;
-   float: left;
-   position: relative;
-   right: 25%;
-}
-
-img.mrgn-img-right{
-    margin-top: 10%;
-    scale: 40%;
-    left: 25%;
-    transform: scale(-1,1);
-    position: relative;
-    float: right;
-}

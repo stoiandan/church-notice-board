@@ -1,11 +1,16 @@
-nav{
-    float: left;
-    position: relative;
-    right: 22%;
-    margin-top: -20%;
- }
- 
- nav>ul>li{
-    list-style-type: none;
-    margin-bottom: 1em;
- }
+li {
+   margin-left: 2%;
+}
+
+.nav{
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: nowrap;
+}
+
+
+.content{
+   margin-top: 6%;
+   justify-content: center;
+   text-align: center;
+}
