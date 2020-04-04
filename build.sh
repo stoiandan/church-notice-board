@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-ng build --prod --output-path docs --base-href church-notice-board
+ng build --prod --output-path docs
 
 
 # Angular build documenation, needed for fixing broken url 
