@@ -1,18 +1,18 @@
-.container{
+.post{
     border-style: solid;
     border-color: dimgrey;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    padding: 2% 0%;
+    text-align: center;
+    padding: 2em;
+    width: max-content;
+    margin: 0 auto;
 }
 
 /* table */
 
 table, th, td {
-    border: 1px solid black;
-    margin: 0 auto;
-    border-collapse: collapse;
+  width: auto;
+  margin: auto;
+  margin-top: 2em;
   }
 
 tr:nth-child(even) {background: #CCC}

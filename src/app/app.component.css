@@ -1,4 +1,4 @@
-li {
+.nav  li {
    margin-left: 2%;
 }
 
@@ -6,4 +6,10 @@ li {
    justify-content: center;
    flex-direction: row;
    flex-wrap: nowrap;
+   margin: 2em auto;
+}
+
+ul.nav span img {
+      width: 5em;
+      height: auto;
 }

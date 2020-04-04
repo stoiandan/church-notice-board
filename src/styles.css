@@ -1,44 +1,15 @@
-body {
-    min-width: 851px;
-    width: 70%;
-    margin: 0 auto;
-    border-radius: 1px;
-    border-color: crimson;
-    border-left-style: outset;
-    border-right-style: outset;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-.container{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: flex-start;
-}
-
 body{
-    margin-top: 5%;
+    width: max-content;
+    margin: 0 auto;
+    min-width: 577px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.posts{
-    margin-top: 3%;
-    width: 100%;
+.title{
+    margin-top: 4%;
+    text-align: center;
 }
 
-.mrgn-img-left{
-    float: left;
-    transform: scale(0.5, 0.5) rotateY(180deg);
-
-    
+.main_title{
+    font-size: 4em;
 }
-
-.mrgn-img-right{
-    float: right;
-    transform: scale(0.5, 0.5);
-}
-
-/* quotes 
-*/
-
-/*  images */
